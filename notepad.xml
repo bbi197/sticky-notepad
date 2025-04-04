@@ -1,0 +1,221 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html" version="2.0">
+<channel>
+<title>
+<![CDATA[ Chrome in Dev Genius on Medium ]]>
+</title>
+<description>
+<![CDATA[ Latest stories tagged with Chrome in Dev Genius on Medium ]]>
+</description>
+<link>https://blog.devgenius.io/tagged/chrome?source=rss----4e2c1156667e--chrome</link>
+<image>
+<url>https://cdn-images-1.medium.com/proxy/1*TGH72Nnw24QL3iV9IOm4VA.png</url>
+<title>Chrome in Dev Genius on Medium</title>
+<link>https://blog.devgenius.io/tagged/chrome?source=rss----4e2c1156667e--chrome</link>
+</image>
+<generator>Medium</generator>
+<lastBuildDate>Fri, 04 Apr 2025 10:17:50 GMT</lastBuildDate>
+<atom:link href="https://medium.com/feed/dev-genius/tagged/chrome" rel="self" type="application/rss+xml"/>
+<webMaster>
+<![CDATA[ yourfriends@medium.com ]]>
+</webMaster>
+<item>
+<title>
+<![CDATA[ Exploring cURL — client URL ]]>
+</title>
+<link>https://blog.devgenius.io/exploring-curl-client-url-948970ead097?source=rss----4e2c1156667e--chrome</link>
+<guid isPermaLink="false">https://medium.com/p/948970ead097</guid>
+<category>
+<![CDATA[ software-development ]]>
+</category>
+<category>
+<![CDATA[ chrome ]]>
+</category>
+<category>
+<![CDATA[ curl ]]>
+</category>
+<category>
+<![CDATA[ url ]]>
+</category>
+<category>
+<![CDATA[ software-engineering ]]>
+</category>
+<dc:creator>
+<![CDATA[ Yeran Kods ]]>
+</dc:creator>
+<pubDate>Mon, 05 Feb 2024 17:10:10 GMT</pubDate>
+<atom:updated>2024-02-05T17:10:10.478Z</atom:updated>
+<content:encoded>
+<![CDATA[ <figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*nYP6oFTuFxSJnPsFNvXZ5A.png" /><figcaption>Image by <a href="https://medium.com/@ykods">Author</a></figcaption></figure><h3>Exploring cURL — client URL</h3><h4>A Comprehensive Guide</h4><h3><em>Introduction</em></h3><p>cURL, short for “Client for URLs,” stands out as a powerful command-line tool and library widely employed for data transfer with various protocols. Its simplicity and versatility make it a preferred choice for developers seeking an efficient way to interact with different servers and services.</p><h3>What is cURL?</h3><p>At its core, cURL is a command-line utility designed for transferring data using URLs. It supports an extensive array of protocols, including HTTP, HTTPS, FTP, FTPS, LDAP, and more. Its popularity lies in its straightforward approach and effectiveness in handling data retrieval and submission tasks.</p><h3>Why use cURL?</h3><p>Developers gravitate towards cURL for several reasons. Its command-line nature lends itself well to automation, making it ideal for scripting and integration into various workflows. Additionally, cURL’s simplicity makes it a go-to tool for debugging and testing APIs, offering a quick and efficient way to interact with web services.</p><h3>cURL vs. Postman</h3><p>Comparing cURL with Postman, a popular GUI-based API development tool, reveals distinct differences in their approaches. cURL relies on the command line, providing a lightweight and scriptable solution. On the other hand, Postman offers a graphical interface, making it more user-friendly for those who prefer a visual approach to API testing and development. The choice between cURL and Postman often boils down to personal preference, project requirements, and team collaboration dynamics.</p><h4>Examples of cURL Commands</h4><ol><li>Simple GET Request : To retrieve data from a URL, use the following cURL command</li></ol><pre>curl https://example.com</pre><p>2. POST Request with Data: Send data with a POST request using cURL</p><pre>curl -X POST -d &quot;key1=value1&amp;key2=value2&quot; https://api.example.com/resource</pre><p>3. Uploading a File: Upload a file to a server using cURL</p><pre>curl -F &quot;file=@/path/to/file.txt&quot; https://upload.example.com</pre><p>4. Authentication with cURL: Include authentication in your cURL request, such as basic authentication</p><pre>curl -u username:password https://api.example.com/resource</pre><h3>cURL in Chrome Developer Tool</h3><p>In the context of Chrome Developer Tools, the cURL command you see is a representation of the network request made by the browser when loading a webpage or making an AJAX request. Chrome Developer Tools provides a way to view and copy the cURL command corresponding to a specific network request, <strong>allowing developers to reproduce the request in a command-line environment or other tools like cURL.</strong></p><p>Here’s a breakdown of the cURL command typically displayed in Chrome Developer Tools</p><pre>curl &#39;URL&#39;<br>-H &#39;Header: Value&#39;<br>-X METHOD<br>--data &#39;POST data&#39;</pre><ul><li><strong>URL:</strong> The URL to which the request is made.</li><li><strong>Header: Value:</strong> Any headers included in the request.</li><li><strong>METHOD:</strong> The HTTP method used (e.g., GET, POST).</li><li><strong>POST data:</strong> Data sent with a POST request</li></ul><p>This representation is helpful for developers who want to replicate or troubleshoot a specific network request outside the browser environment, using tools like cURL in the command line. It provides a quick way to see the details of a request and its parameters, making it easier to analyze and debug network interactions.</p><p>In conclusion, cURL stands as a versatile and efficient tool for developers working with various protocols and APIs. Its command-line nature, automation capabilities, and seamless integration with different protocols make it an invaluable asset in the toolkit of any software developer. Whether you’re fetching data, testing APIs, or debugging network issues, cURL provides a reliable and straightforward solution.</p><p>If you want to learn more about <a href="https://blog.hubspot.com/website/curl-command">cURL</a>, visit this link.</p><p>Hope you learned something new.❤️</p><p>Connect with me via;</p><ul><li><a href="https://github.com/IT21440236">GitHub</a></li><li><a href="https://www.linkedin.com/in/yeran-kods/">LinkedIn</a></li><li><a href="https://twitter.com/Ykods9191">Twitter</a></li></ul><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=948970ead097" width="1" height="1" alt=""><hr><p><a href="https://blog.devgenius.io/exploring-curl-client-url-948970ead097">Exploring cURL — client URL</a> was originally published in <a href="https://blog.devgenius.io">Dev Genius</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p> ]]>
+</content:encoded>
+</item>
+<item>
+<title>
+<![CDATA[ Crafting Brilliance: A Step-by-Step Guide on How to Create Chrome Extensions ]]>
+</title>
+<link>https://blog.devgenius.io/crafting-brilliance-a-step-by-step-guide-on-how-to-create-chrome-extensions-7c3c962b352f?source=rss----4e2c1156667e--chrome</link>
+<guid isPermaLink="false">https://medium.com/p/7c3c962b352f</guid>
+<category>
+<![CDATA[ extension-functions ]]>
+</category>
+<category>
+<![CDATA[ extension ]]>
+</category>
+<category>
+<![CDATA[ chrome ]]>
+</category>
+<category>
+<![CDATA[ chrome-extension ]]>
+</category>
+<category>
+<![CDATA[ extension-development ]]>
+</category>
+<dc:creator>
+<![CDATA[ Nirav Parmar ]]>
+</dc:creator>
+<pubDate>Fri, 29 Dec 2023 20:35:17 GMT</pubDate>
+<atom:updated>2023-12-29T20:35:18.022Z</atom:updated>
+<content:encoded>
+<![CDATA[ <p><strong>Introduction</strong></p><p>Welcome to the exciting world of Chrome extensions! Whether you’re a budding developer or a seasoned coder, this guide will walk you through the process of creating powerful extensions for Google Chrome. Buckle up, and let’s turn your ideas into browser magic! 🚀🔧🌐</p><figure><img alt="How to Create Chrome Extensions" src="https://cdn-images-1.medium.com/max/1024/0*OjOTVtUIsMgtOLi0" /><figcaption>How to Create Chrome Extensions</figcaption></figure><p><strong>Understanding Chrome Extensions</strong></p><p>Chrome extensions are small software programs that customize your browsing experience. They can do everything from changing the look of your browser to adding new functionality. Developing one involves a few key steps.</p><p><strong>Getting Started: Manifest File</strong></p><p>Every extension needs a manifest file (manifest.json) that provides essential information about the extension. Let&#39;s create a basic one:</p><pre>{<br> &quot;manifest_version&quot;: 2,<br> &quot;name&quot;: &quot;My Awesome Extension&quot;,<br> &quot;version&quot;: &quot;1.0&quot;,<br> &quot;description&quot;: &quot;Enhance your browsing experience with this amazing extension!&quot;,<br> &quot;browser_action&quot;: {<br> &quot;default_icon&quot;: &quot;icon.png&quot;,<br> &quot;default_popup&quot;: &quot;popup.html&quot;<br> },<br> &quot;permissions&quot;: [&quot;storage&quot;]<br>}</pre><p>This manifest includes the extension’s name, version, description, and a browser action with a popup HTML file.</p><p><strong>Popup Page: HTML and JavaScript</strong></p><p>Create a popup HTML file (popup.html) for your extension&#39;s user interface:</p><pre>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br> <br> &lt;head&gt;<br> &lt;title&gt;My Extension&lt;/title&gt;<br> &lt;script src=&quot;popup.js&quot;&gt;&lt;/script&gt;<br> &lt;/head&gt;<br> <br> &lt;body&gt;<br> &lt;h1&gt;Hello, Extension World!&lt;/h1&gt;<br> &lt;button id=&quot;clickMe&quot;&gt;Click Me&lt;/button&gt;<br> &lt;/body&gt;<br> <br>&lt;/html&gt;</pre><p>Accompany this with a JavaScript file (popup.js) for interactivity:</p><pre>document.getElementById(&#39;clickMe&#39;).addEventListener(&#39;click&#39;, function () {<br> alert(&#39;Button Clicked!&#39;);<br>});</pre><p>Testing Your Extension</p><ol><li>Open Chrome and go to chrome://extensions/.</li><li>Enable “Developer mode” in the top right.</li><li>Click “Load unpacked” and select your extension’s folder.</li></ol><p>Your extension icon should appear in the Chrome toolbar.</p><p><strong>Adding Functionality: Background Script</strong></p><p>Extensions often require background scripts for continuous processes. Create a file (background.js) for such tasks:</p><pre>chrome.runtime.onInstalled.addListener(function () {<br> console.log(&#39;Extension Installed!&#39;);<br>});</pre><p><strong>Interaction with Web Pages: Content Script</strong></p><p>To interact with web pages, use a content script. Create a file (content.js):</p><pre>document.body.style.backgroundColor = &#39;lightblue&#39;;</pre><p>Include this in your manifest:</p><pre>&quot;content_scripts&quot;: [<br> {<br> &quot;matches&quot;: [&quot;&lt;all_urls&gt;&quot;],<br> &quot;js&quot;: [&quot;content.js&quot;]<br> }<br>]</pre><p><strong>Packaging and Publishing</strong></p><p>When your extension is ready, package it by zipping the folder (excluding unnecessary files) and <strong>upload it</strong> to the <strong>Chrome Web Store Developer Dashboard.</strong></p><p><strong>Conclusion</strong></p><p>Creating Chrome extensions is a fascinating journey, allowing you to enhance the browsing experience for millions of users. Armed with this guide, you’re ready to turn your coding dreams into browser reality.</p><p>Happy coding! 🚀🔧🌐</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=7c3c962b352f" width="1" height="1" alt=""><hr><p><a href="https://blog.devgenius.io/crafting-brilliance-a-step-by-step-guide-on-how-to-create-chrome-extensions-7c3c962b352f">Crafting Brilliance: A Step-by-Step Guide on How to Create Chrome Extensions 🚀🔧🌐</a> was originally published in <a href="https://blog.devgenius.io">Dev Genius</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p> ]]>
+</content:encoded>
+</item>
+<item>
+<title>
+<![CDATA[ The Mysterious Windows Update Bug: Frustrating Chrome Users and Possibly Boosting Edge ]]>
+</title>
+<link>https://blog.devgenius.io/the-mysterious-windows-update-bug-frustrating-chrome-users-and-possibly-boosting-edge-d852fd4d0159?source=rss----4e2c1156667e--chrome</link>
+<guid isPermaLink="false">https://medium.com/p/d852fd4d0159</guid>
+<category>
+<![CDATA[ chrome ]]>
+</category>
+<category>
+<![CDATA[ edge ]]>
+</category>
+<category>
+<![CDATA[ windows ]]>
+</category>
+<dc:creator>
+<![CDATA[ Christian Baghai ]]>
+</dc:creator>
+<pubDate>Mon, 08 May 2023 11:34:59 GMT</pubDate>
+<atom:updated>2023-05-08T11:34:59.564Z</atom:updated>
+<content:encoded>
+<![CDATA[ <figure><img alt="" src="https://cdn-images-1.medium.com/max/768/0*7OHzjJ1kN2MqCthv.png" /></figure><p>Subtitle: A bizarre bug emerges from a Windows update, affecting Google Chrome users and causing confusion among business customers. Is this an intentional move by Microsoft to promote its Edge browser?</p><h3>Introduction</h3><p>In an age where users rely heavily on web browsing, Google Chrome has emerged as the dominant force in the market, boasting an intuitive interface, fast browsing speeds, and a plethora of extensions. However, a recent Windows update has unleashed a strange bug that allows a new tool to change your default browser to Chrome without accessing settings. It may sound insignificant, but the bug has created a chaotic environment for business users, who are now seeking an explanation for this puzzling issue. Is this an intentional move by Microsoft to regain browser dominance with its Edge browser? This article delves into the mysterious bug, the problems it has caused, and its possible implications on the browser war.</p><h3>The New Update and the Mysterious Bug</h3><p>Since July 2022, Google Chrome has introduced a new function that allows users to switch their default browser with a single click. The feature appeared prominently at the top of the Chrome window and in its menu settings. However, this update inadvertently unleashed a peculiar bug that only takes effect when users set Chrome as their default browser through this tool. The bug disappears when users revert to the default settings for Microsoft Edge.</p><p>This strange behavior has caused a multitude of issues for business users, as reported by Gizmodo. Users have encountered difficulty accessing Windows defaults when using Chrome, resulting in a need to force close the settings page. This has led to considerable frustration among the user base, especially for those operating 600 different systems.</p><h3>Not Just Limited to Enterprise Users</h3><p>While the impact of the bug has been most notably felt by enterprise users, further investigation reveals that it is not an isolated issue. Windows 10 and Windows 11 users have also been affected by this update since April. Although the annoyance it causes is more of an inconvenience than a debilitating problem, it has led to a decline in the usage of Google Chrome as the default browser.</p><h3>A Frustrating Roadblock</h3><p>Regular users who try to change their default browser to Chrome are met with a roadblock. Despite attempting to change the settings and clicking “Set as Default,” the changes simply do not take effect. Users must go through a series of steps to navigate down the list, click on Chrome, and then hit the top button that says “Set as Default.” This tedious process has left users frustrated and searching for answers.</p><h3>Is This a Strategic Move by Microsoft?</h3><p>The introduction of this bug has led to speculation that Microsoft may be using it as a tactic to discourage the use of Chrome and promote its Edge browser. With Chrome currently dominating the market, this bug could potentially give Microsoft an opportunity to regain some ground in the browser battle.</p><p>The update, which offers little information on the specific issues it aims to address, has also resolved some significant security vulnerabilities in the Windows operating system. It is unclear whether the bug was intentionally implemented or merely an unforeseen consequence of the update.</p><h3>Conclusion</h3><p>The mysterious bug originating from a Windows update has left Chrome users, particularly those in the business world, frustrated and confused. As the bug affects the default browser settings, some users are left questioning whether Microsoft is attempting to give its Edge browser an advantage. While the answer to this question remains unclear, one thing is certain: the bug has become a major talking point in the browser war, with users eagerly awaiting a resolution to this bizarre problem.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=d852fd4d0159" width="1" height="1" alt=""><hr><p><a href="https://blog.devgenius.io/the-mysterious-windows-update-bug-frustrating-chrome-users-and-possibly-boosting-edge-d852fd4d0159">The Mysterious Windows Update Bug: Frustrating Chrome Users and Possibly Boosting Edge</a> was originally published in <a href="https://blog.devgenius.io">Dev Genius</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p> ]]>
+</content:encoded>
+</item>
+<item>
+<title>
+<![CDATA[ How to Change the Tab Icon on Chrome with JavaScript ]]>
+</title>
+<description>
+<![CDATA[ <div class="medium-feed-item"><p class="medium-feed-image"><a href="https://blog.devgenius.io/how-to-change-the-tab-icon-on-chrome-with-javascript-3b835acb7965?source=rss----4e2c1156667e--chrome"><img src="https://cdn-images-1.medium.com/max/1920/1*KRAT7IbVKMTc3o7lKajDUQ.png" width="1920"></a></p><p class="medium-feed-snippet">As a web developer, you might want to change the tab icon of a website for various reasons, such as branding or to indicate a certain&#x2026;</p><p class="medium-feed-link"><a href="https://blog.devgenius.io/how-to-change-the-tab-icon-on-chrome-with-javascript-3b835acb7965?source=rss----4e2c1156667e--chrome">Continue reading on Dev Genius »</a></p></div> ]]>
+</description>
+<link>https://blog.devgenius.io/how-to-change-the-tab-icon-on-chrome-with-javascript-3b835acb7965?source=rss----4e2c1156667e--chrome</link>
+<guid isPermaLink="false">https://medium.com/p/3b835acb7965</guid>
+<category>
+<![CDATA[ css ]]>
+</category>
+<category>
+<![CDATA[ chrome ]]>
+</category>
+<category>
+<![CDATA[ extension ]]>
+</category>
+<category>
+<![CDATA[ html ]]>
+</category>
+<category>
+<![CDATA[ chrome-extension ]]>
+</category>
+<dc:creator>
+<![CDATA[ Popa Vlad ]]>
+</dc:creator>
+<pubDate>Wed, 05 Apr 2023 19:05:05 GMT</pubDate>
+<atom:updated>2023-04-05T19:05:04.952Z</atom:updated>
+</item>
+<item>
+<title>
+<![CDATA[ Sending JavaScript Commands to Chrome via the Chrome DevTools Protocol ]]>
+</title>
+<description>
+<![CDATA[ <div class="medium-feed-item"><p class="medium-feed-image"><a href="https://blog.devgenius.io/sending-javascript-commands-to-chrome-via-the-chrome-devtools-protocol-88e45091d5c5?source=rss----4e2c1156667e--chrome"><img src="https://cdn-images-1.medium.com/max/1000/1*8lyfWRUAlzmH-59Wh2kfqw.jpeg" width="1000"></a></p><p class="medium-feed-snippet">The Chrome DevTools protocol is a way to interact with a running instance of Google Chrome or Chromium browser via a TCP/IP connection. It&#x2026;</p><p class="medium-feed-link"><a href="https://blog.devgenius.io/sending-javascript-commands-to-chrome-via-the-chrome-devtools-protocol-88e45091d5c5?source=rss----4e2c1156667e--chrome">Continue reading on Dev Genius »</a></p></div> ]]>
+</description>
+<link>https://blog.devgenius.io/sending-javascript-commands-to-chrome-via-the-chrome-devtools-protocol-88e45091d5c5?source=rss----4e2c1156667e--chrome</link>
+<guid isPermaLink="false">https://medium.com/p/88e45091d5c5</guid>
+<category>
+<![CDATA[ puppeteer ]]>
+</category>
+<category>
+<![CDATA[ chrome ]]>
+</category>
+<category>
+<![CDATA[ protocol ]]>
+</category>
+<category>
+<![CDATA[ devtools ]]>
+</category>
+<category>
+<![CDATA[ javascript ]]>
+</category>
+<dc:creator>
+<![CDATA[ Popa Vlad ]]>
+</dc:creator>
+<pubDate>Thu, 30 Mar 2023 21:23:39 GMT</pubDate>
+<atom:updated>2025-03-06T10:31:59.358Z</atom:updated>
+</item>
+<item>
+<title>
+<![CDATA[ Browser add-on/extension I use as Flutter Developer. ]]>
+</title>
+<link>https://blog.devgenius.io/browser-add-on-extension-i-use-as-flutter-developer-3c8c59c642e?source=rss----4e2c1156667e--chrome</link>
+<guid isPermaLink="false">https://medium.com/p/3c8c59c642e</guid>
+<category>
+<![CDATA[ chrome ]]>
+</category>
+<category>
+<![CDATA[ developer ]]>
+</category>
+<category>
+<![CDATA[ flutter ]]>
+</category>
+<category>
+<![CDATA[ firefox ]]>
+</category>
+<category>
+<![CDATA[ software-development ]]>
+</category>
+<dc:creator>
+<![CDATA[ Umesh Shrestha ]]>
+</dc:creator>
+<pubDate>Sat, 30 Jul 2022 15:28:25 GMT</pubDate>
+<atom:updated>2022-07-31T03:41:00.378Z</atom:updated>
+<content:encoded>
+<![CDATA[ <p>Yes, extensions. We are going to talk about extensions today. I know there are tons of articles that focus on extensions for the developers. But in this one, I will talk about the extensions I use and how these extensions help me daily for my productivity as a developer.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*PbFMxd50qv7_Luu0" /><figcaption>Photo by <a href="https://unsplash.com/@jstrippa?utm_source=medium&amp;utm_medium=referral">James Harrison</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral">Unsplash</a></figcaption></figure><p>Let us start listing them</p><ol><li><strong>Vimium C</strong></li></ol><p>If you are a <a href="http://text_editor_of_superior_beings/">Vim</a> user then you probably know about this (assuming you use everything with vim keybinding). This add-on allows you to navigate/use a browser without using a mouse through keybinding and shortcuts.</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*WwHneEH_WMyhcKLc_HMNHQ.png" src="https://cdn-images-1.medium.com/proxy/1*WwHneEH_WMyhcKLc_HMNHQ.png" /></figure><p><em>Firefox add-on: </em><a href="https://mzl.la/3bciP1M"><em>https://mzl.la/3bciP1M</em></a><em> — Google extension: </em><a href="https://bit.ly/3zieKAR"><em>https://bit.ly/3zieKAR</em></a></p><p><strong>2. Bitwarden</strong></p><p>Who has ten different accounts for the same website just because the trial period lasts for only 15 days? And have hundreds of accounts across websites and apps? Well, I do, and I know most of you have. So, how do we remember those account credentials? — We don’t. Bitwarden remembers them. Yeah, it’s a password manager.</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*ZZhGtRnPIAS3vKAB1ugd5w.png" src="https://cdn-images-1.medium.com/proxy/1*ZZhGtRnPIAS3vKAB1ugd5w.png" /></figure><p><em>Firefox add-on: </em><a href="https://mzl.la/3Q69qaA"><em>https://mzl.la/3Q69qaA</em></a><em> — Google extension: </em><a href="https://bit.ly/2IOyENd"><em>https://bit.ly/2IOyENd</em></a></p><p><strong>3. Temp Mail</strong></p><p>You just want to check out the website, but they want you to create an account? Well, Temp Mail will help you with disposable emails.</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*3nsYTTdM21KcrcyNl2IAqw.png" src="https://cdn-images-1.medium.com/proxy/1*3nsYTTdM21KcrcyNl2IAqw.png" /></figure><p>Firefox add-on: <a href="https://mzl.la/2QXzIRn">https://mzl.la/2QXzIRn</a> — Google Extension: <a href="https://bit.ly/3zIQl90">https://bit.ly/3zIQl90</a></p><p><strong>4. Octotree</strong></p><p>If you browse lots of open-source codes or spend significant time on GitHub looking at the different projects? Then this plugin might be a huge help for you. This plugin shows the GitHub repository in IDE like code tree, folder and files search, and many other cool features directly in your browser.</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*Mou2eLJ_X4WdpkNQU8z3DQ.png" src="https://cdn-images-1.medium.com/proxy/1*Mou2eLJ_X4WdpkNQU8z3DQ.png" /></figure><p>Firefox add-on: <a href="https://mzl.la/3zgI0Iw">https://mzl.la/3zgI0Iw</a> — Google Extension: <a href="https://bit.ly/3Q7z26Y">https://bit.ly/3Q7z26Y</a></p><p><strong>5. GitHub Repo Size</strong></p><p>Yeah, as the name says, it shows the size of a GitHub repository. It can be helpful before you go and clone a 1GB repository.</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*6fe8RWrUcknTWMt4phj0Cw.png" src="https://cdn-images-1.medium.com/proxy/1*6fe8RWrUcknTWMt4phj0Cw.png" /></figure><p>Firefox add-on: <a href="https://mzl.la/3zLzkeF">https://mzl.la/3zLzkeF</a> — Google Extension: <a href="https://bit.ly/3JhoOig">https://bit.ly/3JhoOig</a></p><p><strong>6. Tab Session Manager</strong></p><p>We all open tens of different browser tabs when we work on a project. And if we have to work on multiple projects, then the tens of tabs quickly become twenty more tabs. Tab Session Manager allows us to save groups of Tabs as a session so that we can organize and get back to them where we left off.</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*5G4MuXBztbpdRg_0ftsJuA.png" src="https://cdn-images-1.medium.com/proxy/1*5G4MuXBztbpdRg_0ftsJuA.png" /></figure><p>Firefox add-on: <a href="https://mzl.la/3cUarnN">https://mzl.la/3cUarnN</a> — Google Chrome Extension: <a href="https://bit.ly/3bf8ORc">https://bit.ly/3bf8ORc</a></p><p><strong>7. Imagus</strong></p><p>This plugin enlarges the thumbnails and shows images and videos from links with just a mouse hover. You don’t have to click and open it to see what is on another side of that link. Kinda cool right?</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*koXFWybgsmLAwRiAmHljQQ.png" src="https://cdn-images-1.medium.com/proxy/1*koXFWybgsmLAwRiAmHljQQ.png" /></figure><p>Firefox add-on: <a href="https://mzl.la/3cUarnN">https://mzl.la/3cUarnN</a> — Google Chrome Extension: <a href="https://bit.ly/3bf8ORc">https://bit.ly/3bf8ORc</a></p><p><strong>8. Dark Reader</strong></p><p>Don’t you just hate when you visit a website and it blasts the white light when you are working in a dark room? If you do the Dark Reader is your friend. It makes everything you see turn into a dark site (Kinda like magic).</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*vECX4gtqZAY9DuhT5tYNUA.png" src="https://cdn-images-1.medium.com/proxy/1*vECX4gtqZAY9DuhT5tYNUA.png" /></figure><p>Firefox add-on: <a href="https://mzl.la/3Q4CfnN">https://mzl.la/3Q4CfnN</a> — Chrome extension: <a href="https://bit.ly/3SfmH2H">https://bit.ly/3SfmH2H</a></p><p><strong>9. Easy Screenshot</strong></p><p>This plugin enables us to take long screenshots of a website, not just the portion you see.</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*ryo0MmP51iRisuqOtXcJuw.png" src="https://cdn-images-1.medium.com/proxy/1*ryo0MmP51iRisuqOtXcJuw.png" /></figure><p>Firefox ad-on: <a href="https://mzl.la/3Bvmvq8">https://mzl.la/3Bvmvq8</a> — Chrome extension: <a href="https://bit.ly/3vop3T6">https://bit.ly/3vop3T6</a> (exact same extension is not available in chrome since easy screenshot is made by Mozila)</p><p><strong>10. UBlock Origin</strong></p><p>I hate ads. And the solutions to that is uBlock Origin. This blocks trackers and ads from the websites.</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*J5ylNMBhw_5m3khdcPxE9Q.png" src="https://cdn-images-1.medium.com/proxy/1*J5ylNMBhw_5m3khdcPxE9Q.png" /></figure><p>Firefox ad-on: <a href="https://mzl.la/3zG2D26">https://mzl.la/3zG2D26</a> — Chrome Extension: <a href="https://bit.ly/3JowfV2">https://bit.ly/3JowfV2</a></p><p><strong>11. Enhancer for Youtube</strong></p><p>This has many features but I like most is the mini video player on your side of the screen when you scroll through the comments.</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*SH0dfr62DNFGDiMdwVxdag.png" src="https://cdn-images-1.medium.com/proxy/1*SH0dfr62DNFGDiMdwVxdag.png" /></figure><p>Firefox ad-on: <a href="https://mzl.la/2AsjpTE">https://mzl.la/2AsjpTE</a> — Chrome extension: <a href="https://bit.ly/2EGVpi4">https://bit.ly/2EGVpi4</a></p><p><strong>12. Grammarly</strong></p><p>Are you a native English speaker or like me whose English was a 4th language? Either way, Grammarly helps with your English and helps you send error-free (mostly) emails to your clients.</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*4rIVqawomvkiCObHBaBU3A.png" src="https://cdn-images-1.medium.com/proxy/1*4rIVqawomvkiCObHBaBU3A.png" /></figure><p>Firefox ad-on: <a href="https://mzl.la/3SfnwIP">https://mzl.la/3SfnwIP</a> — Chrome extension: <a href="https://bit.ly/3zc6D8U">https://bit.ly/3zc6D8U</a></p><p><strong>13. SponsorBlock for Youtube</strong></p><p>This plugin skips the sponsor segments from YouTube videos. (Sorry, YouTubers).</p><figure><img alt="https://cdn-images-1.medium.com/max/800/1*JD6zx1P_xHVUr72KwDSOzg.png" src="https://cdn-images-1.medium.com/proxy/1*JD6zx1P_xHVUr72KwDSOzg.png" /></figure><p>Firefox ad-on: <a href="https://mzl.la/3zG5kRg">https://mzl.la/3zG5kRg</a> — Chrome extension: <a href="https://bit.ly/3BuJG3I">https://bit.ly/3BuJG3I</a></p><p>That’s all for now. If there is anything else you use that has helped you then please do share with us.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=3c8c59c642e" width="1" height="1" alt=""><hr><p><a href="https://blog.devgenius.io/browser-add-on-extension-i-use-as-flutter-developer-3c8c59c642e">Browser add-on/extension I use as Flutter Developer.</a> was originally published in <a href="https://blog.devgenius.io">Dev Genius</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p> ]]>
+</content:encoded>
+</item>
+<item>
+<title>
+<![CDATA[ Top 10 Extensions for Web Developers ]]>
+</title>
+<link>https://blog.devgenius.io/top-10-extensions-for-web-developers-d57b483b99f2?source=rss----4e2c1156667e--chrome</link>
+<guid isPermaLink="false">https://medium.com/p/d57b483b99f2</guid>
+<category>
+<![CDATA[ developers-update ]]>
+</category>
+<category>
+<![CDATA[ web-development ]]>
+</category>
+<category>
+<![CDATA[ chrome ]]>
+</category>
+<dc:creator>
+<![CDATA[ Harshal Suryawanshi ]]>
+</dc:creator>
+<pubDate>Thu, 10 Feb 2022 11:54:26 GMT</pubDate>
+<atom:updated>2022-02-10T11:54:26.837Z</atom:updated>
+<content:encoded>
+<![CDATA[ <p>Enlarging on the Web Dev World, Extensions are a type of plugins or you can say they are software programs built on technologies such as <strong>HTML, CSS and JavaScript</strong>. These <strong>Software Programs are named Extensions</strong>; help users and <strong>developers to customize the chromes browsing experience.</strong></p><figure><img alt="Thumbnail for Article: Top Extensions for Web Developers." src="https://cdn-images-1.medium.com/max/1024/1*eyI3lRgI9CtDt0wUshvZrA.png" /></figure><p>Today I’ll introduce you with the list of <strong>Top 10 Extensions that a Web Developer</strong> can use.</p><p>Let’s Get started with the extensions — stay tuned.</p><ol><li><strong>Lorem Ipsum Generator Tool:</strong></li></ol><p>It’s one of the best tool for web developers to give a stop to introducing pages while developing. As a Web Developer built web pages there are certain sections where the portion is to be left filled to determine the Design and User Experience. Here this tool will be very beneficial for them. This Tool will generate auto-text or filler-text for websites. Simply, Install this Plugin or Extension in your Chrome and set the range of characters and words of text you want to generate. This will auto-fill the area of text wherever it’s needed. Here’s <a href="https://chrome.google.com/webstore/detail/lorem-ipsum-generator-def/mcdcbjjoakogbcopinefncmkcamnfkdb">Link</a> to the Extension.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/922/1*p-cHgPSOxvzrO1Dmc8mToA.png" /><figcaption><strong>Preview: </strong>Lorem Ipsum Generator Tool or Extension</figcaption></figure><p>2.<strong> CSS Viewer:</strong></p><p>It’s a simple tool for web developers, as it effectively works as the name implies itself. This Add-On tool displays the CSS Properties of a given page wherever you hover your mouse. Generally, A Small Popup Windows will appear showing you the data based on CSS that makes up the element you’re targeting on. This is a Hands-On tool to view the CSS Properties on a mouse hover. This Extensions have generated 100,000+ users with 4/5 for ease of use and simplicity. This Extension really has the medicine of again-and-again right clicking — inspect element and viewing CSS Properties. Here’s <a href="https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce">Link</a> to the Extension.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/946/1*8vV1LJzspB6cThf7c4Caxg.png" /><figcaption><strong>Preview: </strong>CSS Viewer Extension</figcaption></figure><p>3.<strong> HTML Validator:</strong></p><p>It’s a Reality Check tool for debugging your HTML Script within a browser. There are tons of HTML tools out there but this tools is outstanding. This Tool is Authentically useful for validating markup within a browser. Just Install the Extension, You need to open a developer window and navigate to HTML Validator Tab. All the Results will be displayed at the top with errors. This tool is quite popular and has a user list of 30,000+ users with 4/5 for usability. Here’s <a href="https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk">Link</a> to the Extension.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/943/1*LU3bCM0FNoe2Z9YpYXByKg.png" /><figcaption><strong>Preview: </strong>HTML Validator Extension</figcaption></figure><p>4. <strong>Githunt:</strong></p><p>Githunt is only and only useful if you devote lots of your time on GitHub looking for new projects to work-on. This tool will completely give you a green-check instead of wasting your time on GitHub’s Trending Page. This Add-On brings all the trending projects in a new tab at your browser to get a glance. Here you can search projects in various languages, also read a project description in brief with number of current open issues. Via this tool you can simply contribute to the new projects. Again, this tool has 4000+ users with 3/5 rating. Here’s <a href="https://chrome.google.com/webstore/detail/githunt/khpcnaokfebphakjgdgpinmglconplhp">Link</a> to the Extension.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/961/1*LU2xr64LaXJZrp3Aj4xCXw.png" /><figcaption><strong>Preview: </strong>Githunt Extension</figcaption></figure><p>5. <strong>Keyframes:</strong></p><p>This Add-On is one of the best chrome extension for web developers who genuinely want to built CSS Animations within the browser. While there are thousands of tools out for animations, this extension outstands for creating short work of basic animations within a small popup window. Just Install Keyframes, Open the Web-Page, Select the Red and Blue Icon and Highlight a CSS element you want to animate. Edit that element in the side box to add your won piece of animation to the page. It’s Marked as Simple and Smart Work. This Tool has 20,000+ users with rating of 3.6/5 for being authentic. <strong>Currently, this Extension is Not Available but be tuned and keep checking</strong>; Here’s <a href="https://chrome.google.com/webstore/detail/keyframes/dalaiblmpeklkjnpeocmaojcfldmbfck">Link</a> to the Extension.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*IUyBhSOaTDLY_lAjaNixnQ.jpeg" /><figcaption><strong>Preview: </strong>Keyframe Extension</figcaption></figure><p>6. <strong>BrowserStack:</strong></p><p>Really, this tools stand out exceptionally useful as a chrome add-on or extension for web developers. This Tool allows you to test your work on different types of browsers and to check responsiveness of the web-page or apps. Install the Extension, Open the Web-Page in Chrome and Select BrowserStack and select the device option from the tab. Then your Web-Page will start rendering using an emulator of a browser on that device. It’s a Simple but very Effective tool. Here’s <a href="https://chrome.google.com/webstore/detail/browserstack/nkihdmlheodkdfojglpcjjmioefjahjb">Link</a> to the Extension.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/909/1*FxIoGbm3t6q6RZnm7ame8Q.png" /><figcaption><strong>Preview: </strong>BrowserStack Extension</figcaption></figure><p>7.<strong> ColorPick Eyedropper:</strong></p><p>This tool is a detailed color selector for web-pages. It’s a Effective Chrome Developer Extension due to it’s high efficiency in resulting out detailed color code and names. This Tool cannot be used everyday but ranges as a hands-on tool for developers. Once you install this Add-On, you simply select the colour wheel icon to activate it. Your Cursor will change to a crosshair, highlight the section you want to make results and you’ll immediately see the RGB values and hex appears on right side of the screen. Here’s <a href="https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg">Link</a> to the Extension.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/925/1*yakYhKjUouf8Fu5lvnA9Kw.png" /><figcaption><strong>Preview: </strong>ColorPicker Eyedropper Extension</figcaption></figure><p>8. <strong>Window Resizer:</strong></p><p>As I earlier introduced to the tool called “BrowserStack”, this work exact as that tool. Windows Resizer is useful chrome extension for web developers. It’s help with working with responsive design of apps and websites. After Installation of this tool, it will show you option to resize the screen you’re working on a range of screen sizes, and like this you can check the responsiveness of your app for website. Here’s <a href="https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh/">Link</a> to the Extension.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/928/1*DRS8WQVm-8lFkp3u3UG_uw.png" /><figcaption><strong>Preview: </strong>Windows Resizer Extension</figcaption></figure><p>9. <strong>Corporate Ipsum:</strong></p><p>It’s an alternative to Lorem Ipsum Generator. If your client or customer is more picky about the placeholder text, you can easily use this tool to generate Lorem Ipsum with Corporate style. The Text will be unique and will have a corporate twist. This tool has 10,000+ users with 4/5 for ease of use. Here’s <a href="https://chrome.google.com/webstore/detail/corporate-ipsum/lfmadckmfehehmdnmhaebniooenedcbb">Link</a> to the Extension.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/973/1*OwoKzISoevlOEkAPmTO5Hg.png" /><figcaption><strong>Preview: </strong>Corporate Ipsum Extension</figcaption></figure><p>10. <strong>Fonts Ninja:</strong></p><p>It actually identifies the font on web-page. After Installation of this Add-On you should see a small green ninja icon in your toolbar. Open your Chrome Browser, Select the Icon and hover a font which you want to identify. After, you’ll see a overview popup and an individual popup over the highlighted font. Here’s <a href="https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh">Link</a> to the Extension.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/921/1*LFwBEqx10hgqK2D_KLwKGQ.png" /><figcaption><strong>Preview: </strong>Fonts Ninja Extension</figcaption></figure><p>So, this was an article on Top 10 Extensions for Web Developers.</p><p><strong>Note: </strong>This Article do not promote any kind of service or extension. It’s Only for Educational Purpose.</p><p><strong>Update:</strong> (09/02/2022) — Extension 5: Keyframes is not currently available on Chrome Store, the reason is unknown for me. I will soon update this article with the alternative of this add-on. <em>After Unavailability, The Reason I have mentioned this extension is the Ease of Use. If the Extension is Live Again you can get it or soon I&#39;ll replace that extension with an alternative.</em></p><p>Stay Tuned and Follow me on Medium — <a href="https://medium.com/u/d4942c3fdf94">Harshal Suryawanshi</a>. Also don’t forget to <strong>comment</strong> your favorite extension and experiences below. <strong>Share </strong>this article.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=d57b483b99f2" width="1" height="1" alt=""><hr><p><a href="https://blog.devgenius.io/top-10-extensions-for-web-developers-d57b483b99f2">Top 10 Extensions for Web Developers</a> was originally published in <a href="https://blog.devgenius.io">Dev Genius</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p> ]]>
+</content:encoded>
+</item>
+</channel>
+</rss>
