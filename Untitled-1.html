@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Phases</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #222;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            overflow-x: auto;
+            white-space: nowrap;
+            z-index: 1000;
+        }
+        .header img {
+            width: 50px;
+            height: 50px;
+        }
+        .moon-container {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 100px;
+            padding: 20px;
+        }
+        .moon-phase {
+            text-align: center;
+            opacity: 0;
+            transform: translateY(100px);
+            transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .moon-phase img {
+            width: 80vw;
+            height: auto;
+            max-height: 80vh;
+            transition: transform 1.5s ease-out;
+        }
+        .moon-phase.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .moon-phase.show img {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="new_moon.png" alt="New Moon">
+        <img src="waxing_crescent.png" alt="Waxing Crescent">
+        <img src="first_quarter.png" alt="First Quarter">
+        <img src="waxing_gibbous.png" alt="Waxing Gibbous">
+        <img src="full_moon.png" alt="Full Moon">
+        <img src="waning_gibbous.png" alt="Waning Gibbous">
+        <img src="last_quarter.png" alt="Last Quarter">
+        <img src="waning_crescent.png" alt="Waning Crescent">
+    </div>
+    <div class="moon-container">
+        <div class="moon-phase"><img src="new_moon.png" alt="New Moon"><p>New Moon</p></div>
+        <div class="moon-phase"><img src="waxing_crescent.png" alt="Waxing Crescent"><p>Waxing Crescent</p></div>
+        <div class="moon-phase"><img src="first_quarter.png" alt="First Quarter"><p>First Quarter</p></div>
+        <div class="moon-phase"><img src="waxing_gibbous.png" alt="Waxing Gibbous"><p>Waxing Gibbous</p></div>
+        <div class="moon-phase"><img src="full_moon.png" alt="Full Moon"><p>Full Moon</p></div>
+        <div class="moon-phase"><img src="waning_gibbous.png" alt="Waning Gibbous"><p>Waning Gibbous</p></div>
+        <div class="moon-phase"><img src="last_quarter.png" alt="Last Quarter"><p>Last Quarter</p></div>
+        <div class="moon-phase"><img src="waning_crescent.png" alt="Waning Crescent"><p>Waning Crescent</p></div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const moonPhases = document.querySelectorAll(".moon-phase");
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("show");
+                    }
+                });
+            }, { threshold: 0.2 });
+            
+            moonPhases.forEach(phase => observer.observe(phase));
+        });
+    </script>
+</body>
+</html>

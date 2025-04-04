@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sticky Notepad</title>
+    <style>
+        body { width: 300px; padding: 10px; }
+        #noteInput { width: 100%; height: 100px; }
+        #shapes { display: flex; }
+        .shape { width: 30px; height: 30px; margin: 5px; cursor: pointer; }
+        #floatingNotes { position: fixed; top: 50px; left: 50px; }
+        .floating-note { position: absolute; border: 1px solid black; padding: 5px; background-color: white; }
+    </style>
+</head>
+<body>
+    <textarea id="noteInput"></textarea>
+    <div id="shapes">
+        <div class="shape" id="arrow">&#8594;</div>
+        <div class="shape" id="circle">&#9679;</div>
+        <div class="shape" id="square">&#9633;</div>
+    </div>
+    <div id="floatingNotes"></div>
+    <script src="popup.js"></script>
+</body>
+</html>

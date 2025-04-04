@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Sticky Notepad",
+  "version": "1.0",
+  "description": "A notepad with floating windows, shapes, and shortcuts.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background":{
+    "service_worker": "background.js"
+  }
+}
